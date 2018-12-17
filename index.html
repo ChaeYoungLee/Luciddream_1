@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Full page scroll</title>
+	<link rel="stylesheet" type="text/css" href="full-page-scroll.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+	<style type="text/css">
+
+	.section1 { 
+		background: black;
+	}
+
+	#title {font-size: 50px;
+			position: absolute;
+			top: 100;
+			color: white;}
+
+	#SCROLL {position: absolute; 
+			font-size: 30px; 
+			top: 630px; left:1300px; 
+			color: white;
+
+			animation: fadeOut 1s ease-out;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-fill-mode: none;}
+
+	#rose{
+		cursor: pointer;
+		transform-style: flat;}
+	#rose:hover{
+		animation: rota 3s ease-out;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-fill-mode: none;
+	}
+
+
+
+	.section2 {
+	 	background-color: black;
+	 	color: white; 
+
+	}
+
+
+
+	.section3 {
+		background: black;
+	 	color: white; 
+		
+	}
+
+	.section4 {
+		background: black;
+	 	color: white; 
+		
+	}
+
+	.section5 {
+		background: black;
+		
+	}
+			
+	section div {
+		font-family: 'Noto Serif KR', sans-serif;
+		font-style: normal;
+		position: relative;
+	}
+
+
+		@keyframes fadeOut{
+		from{
+			opacity: 1;
+			color: red;
+		}
+		to{
+			opacity: 0.3;
+			color: green;
+		}
+	}
+
+		@keyframes rota{
+			from{
+				transform: rotate(0deg);
+			}
+			to{
+				transform: rotate(45deg);
+			}
+		}
+
+
+
+	</style>	
+</head>
+<body>
+	<div id="main" class="scroll-container">
+		<section class="section1">
+
+		<div id="title" style="position: absolute; top: 100px; left: 100px;">
+		자각몽에 대해서
+		</div>
+
+		
+
+			<div style="
+			font-family: 'Noto Serif KR', sans-serif;
+			font-style: normal;
+			position: relative;
+			top: 50%;  
+			transform: translateY(-50%);
+    		animation: fadeOut 2s ease-out;
+			animation-fill-mode: forwards;
+			line-height: 50px;">
+			
+	오세요, 우리는 언젠가 만난 적이 있어요. 시를 쓰는 여자여, 우리는 식탁에 앉아서 정치와 취향과 여름에 대해 이야기해요. 예의 바르고 말쑥한 손님의 자세로 당신은 물고기와 파란 정향의 냄새를 좋아하고 꼬리가 긴 바람도 좋아하지요.
+ 	나의 손님이여, 나는 당신의 존재를 덥석 베어 물고 싶군요. 뜨거운 혀로 당신의 표면을 어루만지고, 날카로운 이빨로 차가운 뼈와 뼛속에 감춘 권태의 쓴맛을 찢어발기고, 금박 씌운 둔중한 어금니를 동원하여 당신의 경악을 꼼꼼히 저작할 것입니다.
+  	나는 생각해요. 흰 침을 뚝뚝 흘리는 입술, 검은 목구멍 속을 당신의 잔해를 꿀꺽 삼킨 혀가 자신의 유일한 임무를 마치고 어떤 흐느낌 속으로 돌아가는 순간을, 그곳의 어둡고 창백한 고요를, 언젠가 목구멍으로 툭 튀어나올 딱딱한 손가락을
+  	그러나 시를 쓰는 여자여, 영원한 손님이여. 당신의 검은 심장은 곧 찢어지겠군요. 물고기와 정향을 좋아하는 당신, 새하얀 육체와 충만한 영혼을 가진 당신, 언제까지나 다정하고 따뜻하고 겸손한 당신, 어쩌면 아름다운 당신 그러나 곧 나에게 먹힐 당신,오세요, 우리는 언젠가 만난 적이 있어요. 시를 쓰는 여자여, 우리는 식탁에 앉아서 정치와 취향과 여름에 대해 이야기해요. 예의 바르고 말쑥한 손님의 자세로 당신은 물고기와 파란 정향의 냄새를 좋아하고 꼬리가 긴 바람도 좋아하지요.
+ 	나의 손님이여, 나는 당신의 존재를 덥석 베어 물고 싶군요. 뜨거운 혀로 당신의 표면을 어루만지고, 날카로운 이빨로 차가운 뼈와 뼛속에 감춘 권태의 쓴맛을 찢어발기고, 금박 씌운 둔중한 어금니를 동원하여 당신의 경악을 꼼꼼히 저작할 것입니다.
+  	나는 생각해요. 흰 침을 뚝뚝 흘리는 입술, 검은 목구멍 속을 당신의 잔해를 꿀꺽 삼킨 혀가 자신의 유일한 임무를 마치고 어떤 흐느낌 속으로 돌아가는 순간을, 그곳의 어둡고 창백한 고요를, 언젠가 목구멍으로 툭 튀어나올 딱딱한 손가락을
+  	그러나 시를 쓰는 여자여, 영원한 손님이여. 당신의 검은 심장은 곧 찢어지겠군요. 물고기와 정향을 좋아하는 당신, 새하얀 육체와 충만한 영혼을 가진 당신, 언제까지나 다정하고 따뜻하고 겸손한 당신, 어쩌면 아름다운 당신 그러나 곧 나에게 먹힐 당신,오세요, 우리는 언젠가 만난 적이 있어요. 시를 쓰는 여자여, 우리는 식탁에 앉아서 정치와 취향과 여름에 대해 이야기해요. 예의 바르고 말쑥한 손님의 자세로 당신은 물고기와 파란 정향의 냄새를 좋아하고 꼬리가 긴 바람도 좋아하지요.
+ 	나의 손님이여, 나는 당신의 존재를 덥석 베어 물고 싶군요. 뜨거운 혀로 당신의 표면을 어루만지고, 날카로운 이빨로 차가운 뼈와 뼛속에 감춘 권태의 쓴맛을 찢어발기고, 금박 씌운 둔중한 어금니를 동원하여 당신의 경악을 꼼꼼히 저작할 것입니다.
+  	나는 생각해요. 흰 침을 뚝뚝 흘리는 입술, 검은 목구멍 속을 당신의 잔해를 꿀꺽 삼킨 혀가 자신의 유일한 임무를 마치고 어떤 흐느낌 속으로 돌아가는 순간을, 그곳의 어둡고 창백한 고요를, 언젠가 목구멍으로 툭 튀어나올 딱딱한 손가락을
+  	그러나 시를 쓰는 여자여, 영원한 손님이여. 당신의 검은 심장은 곧 찢어지겠군요. 물고기와 정향을 좋아하는 당신, 새하얀 육체와 충만한 영혼을 가진 당신, 언제까지나 다정하고 따뜻하고 겸손한 당신, 어쩌면 아름다운 당신 그러나 곧 나에게 먹힐 당신,
+			</div>
+
+		<img src="totem.gif" style="
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left:-297.5px; 
+		margin-top:-124px;
+		">
+
+			<div id="SCROLL">
+				∨ SCROLL
+			</div>		
+		
+
+		</section>
+
+		<section class="section2">
+		<div style="line-height: 40px;">
+			
+			<img src="notebook.png" style="position:relative; left: 455px; bottom:110px; height: 800px;">
+			<img src="pen.png" style="position: absolute; left: 880px; height: 500px;">
+			<img src="rose.png" style="position: relative; width: 400px; margin-left: -100px; margin-top: -100px;">
+			<img src="rose.png" style="position: relative; width: 600px; left: 100px; bottom: 800px;">
+			<img src="rose.png" style="position: relative; width: 400px; left: 300px; bottom: 600px;">
+
+			<div style="position: absolute; left: 500px; top: 90px; color: black; font-size: 20px; line-height: 30px;">
+		자각몽(自覺夢) 또는 루시드 드림(영어: lucid dream)은<br> 꿈을 꾸는 도중에 스스로 꿈이라는 사실을 알고 꾸는 <br>꿈을 말한다.
+			</div>
+	
+	<table border="0" style="font-size: 10pt;">
+		<tr>
+			<td width="470" height="85" valign="top" style="position: absolute; left: 500px; top: 207px; line-height: 25px;"><font color="red"><span id="texts">&nbsp</span></font></td>
+		</tr>
+	</table>
+
+		</section>
+
+
+
+
+		<section class="section3">
+		<div id="rose">
+		<img src="rose.png" style="position: relative; top: 50%; left: 50%;
+		 width: 500px; margin-left: -100px; margin-top: -100px;">	
+		</div>
+		</section>
+
+
+
+
+		<section class="section4">
+		<div>
+			<span>Page #4</span>				
+		</div>
+		</section>
+
+		<section class="section5">
+		<div>
+			<span>Page #5</span>				
+		</div>
+		</section>
+	</div>
+
+	<script src="full-page-scroll.js"></script>
+	<script type="text/javascript">
+		new fullScroll({
+			container: 'main',
+			sections: 'section',
+			currentPosition: 0,
+			displayDots: true,
+			dotsPosition: 'left',
+			animateTime: 0.7,
+			animateFunction: 'ease'
+		});
+
+		var text = "자각몽이 진행 중일 때, 뇌의 의식은 꿈의 내용에 의식적으로 개입하거나 그 내용을 조정하는 일이 가능해지므로, 여러 가지 물리적으로 불가능한 현상이나 욕구 등을 의지에 따라 시각화하는 일이 가능해질 수 있다고 한다. 자각몽은 두 가지 종류로 나뉘는데, 수면 중 꿈을 꾸다가 점차적으로 꿈임을 자각하게 되는 딜드(DILD: dream-initiated lucid dream)와 깨어 있는 상태에서 바로 자각몽 상태로 진입하는 와일드(WILD: wake-initiated lucid dream)로 나뉜다. 자각몽은 과학적으로 연구되어 왔으며, 그 존재는 잘 규명되어 있는 상태이다. 간혹 자각몽 상태에서 벗어나지 못해 사망한다는 속설이 있으나 전혀 근거 없는 것으로 실제 자각몽은 인간의 욕구불만을 해소할 수 있어 정신과적 치료요법으로도 사용이 된다. 이와 비슷한 것으로 거짓 각성이라는 것이 있는데 생생한 꿈을 꾸면서 현실로 인식하는 것이다."
+		var cnt = 0;
+		var speed = 70; 
+		var timer1 = null;
+
+
+		function gogogo(){
+    	document.getElementById('texts').innerHTML = text.substring(0, cnt) + "_";
+    	cnt++;
+    	timer1 = setTimeout('gogogo()', speed);
+ 
+    	if(text.length < cnt){
+
+        clearTimeout(timer1)
+        cnt = 0;
+    }
+}
+ 
+gogogo();
+
+
+
+	</script>
+</body>
+</html>
